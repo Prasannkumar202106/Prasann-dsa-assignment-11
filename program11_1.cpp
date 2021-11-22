@@ -16,12 +16,12 @@ int main()
 {
     int i,value;
     int array[1000];
-    //Creates a random array
+    //Creates a  array
     for(i=0;i<1000;i++){
         array[i] = rand()%1000;
     }
     
-    //NOting start and end timings
+    // start and end timings
     auto start = high_resolution_clock::now();
     bubbleSort(array,1000);
     auto stop = high_resolution_clock::now();
